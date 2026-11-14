@@ -285,6 +285,43 @@ This project is developed for educational and research purposes using simulated 
 
 Predictions and maintenance recommendations are not certified aircraft maintenance decisions. The application is not a certified aircraft diagnostic or safety system.
 
+## 🚀 Live Demo
+
+Explore the deployed Predictive Maintenance application:
+
+**[Launch Predictive Maintenance ANN – Live Demo](https://predictive-maintenance-ann-v4xxugv68zayttjroonwxf.streamlit.app/)**
+
+The application allows users to:
+- Enter engine operating settings and sensor readings manually.
+- Select predefined sample engine profiles.
+- Predict the Remaining Useful Life (RUL) of an aircraft engine.
+- View RUL predictions through an interactive gauge.
+- Receive maintenance recommendations based on predicted RUL.
+- Check sensor readings against training-data reference ranges.
+
+**Note:** This application is an educational and research demonstration, not a certified aircraft diagnostic or safety system.
+
+---
+
+## 📚 Dataset and Citation
+
+This project uses the **NASA C-MAPSS Turbofan Engine Degradation Simulation Dataset**, specifically the **FD001 subset**, to develop an Artificial Neural Network (ANN) model for Remaining Useful Life (RUL) prediction.
+
+**Dataset Source:**  
+NASA Prognostics Center of Excellence (PCoE) Data Set Repository
+
+https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+
+**Dataset Citation:**
+
+A. Saxena and K. Goebel (2008). *Turbofan Engine Degradation Simulation Data Set*. NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA.
+
+**Data Processing Note:**
+
+The files in the `processed/` directory were generated during this project through preprocessing and feature engineering of the NASA C-MAPSS dataset. These files are included to support model execution and Streamlit deployment.
+
+Please acknowledge the original NASA dataset source when using or referencing this project.
+
 ## Author
 
 **Mohammed Aqlath A.**
