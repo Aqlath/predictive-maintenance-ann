@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Original datasets
+data/
+*.txt
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+secrets.toml
+
+# Processed datasets
+processed/
