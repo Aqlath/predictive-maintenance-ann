@@ -12,7 +12,8 @@ __pycache__/
 
 # Original datasets
 data/
-*.txt
+dataset/
+!requirements.txt
 
 # Temporary files
 *.log
